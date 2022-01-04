@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>CONTACTO</title>
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" >
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+    
+   
+  
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img src="imagenes/redondo2.png" alt="Logo" style="width:40px;" class="rounded-pill">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Formentera.html">Formentera</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Malpica.html">Malpica de Bergantiños</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Tenerife.html">Tenerife</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Barcelona.html">Barcelona</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+                 
+            </ul>
+          </div>
+        </div>
+      </nav>
+   
+        <br>
+        <br>
+
+        <div class="container px-5 my-5 bg-dark text-white">
+            <img src="imagenes/cabeceracontacto1.png" alt="The Company's Logo" style="width:400px;" class="mx-auto d-block">
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="mb-3">
+                    <label class="form-label" for="nombre">Nombre</label>
+                    <input class="form-control" id="nombre" type="text" placeholder="Nombre" data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="nombre:required">Nombre is required.</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="apellidos">Apellidos</label>
+                    <input class="form-control" id="apellidos" type="text" placeholder="Apellidos" data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="apellidos:required">Apellidos is required.</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="eMail">E-Mail</label>
+                    <input class="form-control" id="eMail" type="email" placeholder="E-Mail" data-sb-validations="required,email" />
+                    <div class="invalid-feedback" data-sb-feedback="eMail:required">E-Mail is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="eMail:email">E-Mail Email is not valid.</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="comentario">Comentario</label>
+                    <textarea class="form-control" id="comentario" placeholder="Comentario" style="height: 10rem;" data-sb-validations="required"></textarea>
+                    <div class="invalid-feedback" data-sb-feedback="comentario:required">Comentario is required.</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label d-block"></label>
+                    <div class="form-check">
+                        <input class="form-check-input" id="aceptaLosTerminosYCondiciones" type="checkbox" name="newField10" data-sb-validations="required" />
+                        <label class="form-check-label" for="aceptaLosTerminosYCondiciones">Acepta los Términos y Condiciones</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" id="aceptaQueSuInformacionSeraTratadaDeManeraAnonima" type="checkbox" name="newField10" data-sb-validations="required" />
+                        <label class="form-check-label" for="aceptaQueSuInformacionSeraTratadaDeManeraAnonima">Acepta que su Información será tratada de manera anónima</label>
+                    </div>
+                    <div class="invalid-feedback" data-sb-feedback="newField10:required">One option is required.</div>
+                </div>
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">
+                        <div class="fw-bolder">¡El envío del formulario se ha enviado correctamente!</div>
+                        
+                    </div>
+                </div>
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+                <div class="d-grid">
+                    <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h3 class="footer-header">Sobre mi...</h3>
+                    <div class="white-breaker"></div>
+                    <p class="footer-about-text">“Viajar sirve para ajustar la imaginación a la realidad, y para ver las cosas como son en vez de pensar cómo serán.”</p>
+                        <p>Samuel Johnson</p>
+                   
+                </div>
+                <div class="col-sm">
+                    <h3 class="footer-header">Redes Sociales</h3>
+                    <div class="white-breaker"></div>
+                    <div class="footer-social-container">
+                        <div class="footer-social">
+                      
+                            <div class="footer-social-icons">
+                                <p class="footer-about-text">Síguenos en Redes Sociales y estate atento a nuestras novedades.</p>
+                                <a href="https://es-es.facebook.com/">
+                                    <div class="footer-social-square"><i class="fab fa-facebook-f"></i></div>
+                                </a>
+                                <a href="https://twitter.com/">
+                                    <div class="footer-social-square"><i class="fab fa-twitter"></i></div>
+                                </a>
+                                <a href="https://www.instagram.com/">
+                                    <div class="footer-social-square"><i class="fab fa-instagram"></i></div>
+                                </a>
+                                <a href="https://www.tumblr.com/">
+                                    <div class="footer-social-square"><i class="fab fa-tumblr"></i></div>
+                                </a>
+                                <a href="https://vimeo.com">
+                                    <div class="footer-social-square"><i class="fab fa-vimeo-v"></i></div>
+                                </a>
+                                <a href="rss.xml">
+                                    <div class="footer-social-square"><i class="fas fa-rss-square"></i></div>
+                                </a>
+                                <a href="https://www.youtube.com/?gl=ES&hl=es">
+                                    <div class="footer-social-square"><i class="fab fa-youtube"></i></div>
+                                </a>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div> 
+          <br>   
+ </div>
+ </div>
+ <hr>
+</body>
+
+
+
+</html>

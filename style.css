@@ -1,0 +1,126 @@
+
+
+/********** Common **********/
+
+p,h4{
+    text-align: justify;}
+
+body {
+    color: black;
+    font-size: 14px;
+    background-color: #f6f6f6
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*****************Enlaces entradas OK*********************/
+
+.site-button {
+    background-color: #fead42;
+    color: white;
+    cursor: pointer;
+    padding: 0px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.site-button:hover {
+    background-color: #ff9100;
+}
+
+a.site-button {
+    color: white;
+    text-decoration: none;
+}
+
+
+/********** entradas OK **********/
+
+.entradas {
+    margin: 50px 0;
+}
+
+.entradas .entradas-header {
+    font-size: 2.3em;
+    text-align: center;
+    margin: 50px 0 30px 0;
+}
+
+.entradas .row .col-sm {
+    text-align: center;
+}
+
+/********** servicios OK **********/
+
+.servicios {
+    background-color: #eaeaea;
+    cursor: default;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.servicios-counter {
+    font-size: 1.4em;
+    margin: 0 0;
+    text-align: center;
+}
+
+.servicios-description {
+    font-size: 1.1em;
+    margin: 0 0;
+    text-align: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-inner{
+ height: 450px;
+}
+
+/********** footer OK **********/
+
+.footer {
+    padding: 20px 0 80px 0;
+    background-color: #252525;
+    color: white;
+}
+
+.footer-header {
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.footer-social-icons a:hover .footer-social-square {
+    background-color: #28A745;
+}
+
+.footer-social-square {
+    background-color: #404040;
+    float: left;
+    height: 25px;
+    margin: 0 5px 0 0;
+    text-align: center;
+    width: 25px;
+}
+
+.footer-icon {
+    float: right;
+    margin: 0 10px 0.1px 0;
+}
+
+.footer-social i,
+.footer-social span {
+    color: #faab5c;
+}
+
+.footer-news img {
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin: 0 5px 0 0;
+}
